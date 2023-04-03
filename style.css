@@ -196,10 +196,25 @@ input[type=number]{
     .wrapper{
         width: 100%;
         padding: 20px 10px;
+        margin-top: 250px;
+        
     }
     .wrapper .calculator{
         flex-direction: column;
     }
+    .wrapper h2{
+        width: 100%;
+        
+    }
+    
+    .wrapper .div-bar{
+        display: none;
+        align-items: center;
+        
+        margin: 13px 160px;
+        
+    }
+
     .wrapper .calculator .calculator-input{
         width: 100%;
     }
